@@ -1,7 +1,7 @@
 {
   "name": "markdown-editor",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -19,9 +19,15 @@
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
+    "cssnano": "^4.1.10",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "gh-pages": "^2.0.1",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "rucksack-css": "^1.0.2",
     "vue-template-compiler": "^2.5.21"
   },
   "description": "Markdown editor with flavors",
@@ -35,5 +41,21 @@
   "bugs": {
     "url": "https://github.com/jlozovei/markdown-editor/issues"
   },
-  "homepage": "https://github.com/jlozovei/markdown-editor#readme"
+  "homepage": "https://github.com/jlozovei/markdown-editor#readme",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "precss": {},
+      "rucksack-css": {},
+      "cssnano": {},
+      "postcss-preset-env": {},
+      "postcss-custom-properties": {},
+      "postcss-custom-selectors": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
