@@ -1,0 +1,30 @@
+.markdown-flavored--github {
+  .csv-data {
+    td,
+    th {
+      padding: 5px;
+      overflow: hidden;
+      font-size: 12px;
+      line-height: 1;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    .blob-num {
+      padding: 10px 8px 9px;
+      text-align: right;
+      background: #fff;
+      border: 0;
+    }
+
+    tr {
+      border-top: 0;
+    }
+
+    th {
+      font-weight: 600;
+      background: #f6f8fa;
+      border-top: 0;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.markdown-flavored--github {
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+
+    th {
+      font-weight: 600;
+    }
+
+    th,
+    td {
+      padding: 6px 13px;
+      border: 1px solid lighten(#d1d5da, 5%);
+    }
+
+    tr {
+      background-color: #fff;
+      border-top: 1px solid darken(#d1d5da, 4%);
+
+      &:nth-child(2n) {
+        background-color: #f6f8fa;
+      }
+    }
+
+    img {
+      background-color: transparent;
+    }
+  }
+}
