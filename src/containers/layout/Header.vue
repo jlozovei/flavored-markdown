@@ -19,7 +19,7 @@
   position: relative;
   display: flex;
   flex-flow: row wrap;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-between;
   padding: 1em;
   color: #fff;
