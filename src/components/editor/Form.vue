@@ -44,7 +44,9 @@ export default {
     };
   },
   mounted() {
-    this.initialState();
+    if (this.previousStoredMarkdown)
+      this.$data.markdown = this.previousStoredMarkdown;
+    else this.initialState();
   },
   methods: {
     initialState() {
@@ -93,6 +95,10 @@ export default {
   computed: {
     rawMarkdown() {
       return this.$data.markdown;
+    },
+
+    previousStoredMarkdown() {
+      return this.$store.getters["markdown"];
     }
   }
 };
