@@ -1,5 +1,5 @@
-/* headings */
-.markdown-flavored--github {
+/* Headings */
+.markdown-flavored--bitbucket {
   h1,
   h2,
   h3,
@@ -62,7 +62,7 @@
 }
 
 /* link */
-.markdown-flavored--github {
+.markdown-flavored--bitbucket {
   a {
     color: #0366d6;
     text-decoration: none;
@@ -75,7 +75,7 @@
 }
 
 /* lists */
-.markdown-flavored--github {
+.markdown-flavored--bitbucket {
   ul,
   ol {
     padding-left: 2em;
@@ -83,20 +83,6 @@
     &.no-list {
       padding: 0;
       list-style-type: none;
-    }
-  }
-
-  ul {
-    &,
-    li {
-      list-style-type: disc;
-    }
-  }
-
-  ol {
-    &,
-    li {
-      list-style-type: decimal;
     }
   }
 
@@ -135,16 +121,5 @@
       padding: 0 16px;
       margin-bottom: 16px;
     }
-  }
-}
-
-/* inputs */
-.markdown-flavored--github {
-  [type="checkbox"] {
-    appearance: checkbox;
-  }
-
-  [type="radio"] {
-    appearance: radio;
   }
 }
