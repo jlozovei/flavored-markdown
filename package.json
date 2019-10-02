@@ -6,7 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve"
+    "start": "vue-cli-service serve",
+    "predeploy": "npm run build && cp README.md ./dist",
+    "deploy": "gh-pages -d dist",
+    "postdeploy": "rm -rf dist"
   },
   "dependencies": {
     "emoji-js": "^3.4.1",
