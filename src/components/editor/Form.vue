@@ -2,7 +2,7 @@
   <div class="editor__column form-wrapper">
     <form class="form">
       <fieldset>
-        <textarea @keyup="keyup" v-model="markdown"></textarea>
+        <textarea @keyup="keyup" v-model="markdown" autofocus></textarea>
       </fieldset>
     </form>
   </div>
@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     initialState() {
-      const initialMarkdown = "# Start typing here";
+      const initialMarkdown = "# Start typing here :smile:";
       this.$data.markdown = initialMarkdown;
 
       this.$store.dispatch({
