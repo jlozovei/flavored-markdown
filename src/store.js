@@ -44,7 +44,7 @@ export default new Vuex.Store({
     },
 
     storeFlavor({ commit }, payload) {
-      commit("setHTML", payload.value);
+      commit("setFlavor", payload.value);
     }
   },
 
