@@ -2,7 +2,9 @@
   <header class="page__header">
     <h1 class="header__title">Flavored Markdown</h1>
 
-    <div class="header__menu"></div>
+    <div class="header__menu">
+      <Menu />
+    </div>
 
     <div class="header__disclaimer">
       Crafted with <span class="heart" aria-label="love">&hearts;</span> by
@@ -51,8 +53,13 @@
 </style>
 
 <script>
+import Menu from "components/editor/Menu";
+
 export default {
   name: "Header",
+  components: {
+    Menu
+  },
   data() {
     return {
       currentYear: new Date().getFullYear()
