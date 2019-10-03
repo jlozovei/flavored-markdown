@@ -1,7 +1,7 @@
 <template>
   <div class="editor__column result-wrapper">
     <div
-      class="markdown-flavored markdown-flavored--github"
+      :class="`markdown-flavored markdown-flavored--${currentFlavor}`"
       v-html="parsedHTML"
     ></div>
   </div>
@@ -30,6 +30,10 @@ export default {
   computed: {
     parsedHTML() {
       return this.$store.getters.html;
+    },
+
+    currentFlavor() {
+      return this.$store.getters.flavor;
     }
   }
 };
