@@ -73,18 +73,18 @@ export default {
     },
 
     parse(raw) {
+      // parse emojis
+      const emojiConvertor = new Emoji.EmojiConvertor(),
+        textWithEmojis = emojiConvertor.replace_colons(raw);
+
       // parse html
-      const converter = new Showdown.Converter({
+      const mdConverter = new Showdown.Converter({
           simplifiedAutoLink: true,
           tasklists: true,
           tables: true,
           strikethrough: true
         }),
-        parsedHTML = converter.makeHtml(raw);
-
-      // parse emojis
-      const emoji = new Emoji.EmojiConvertor(),
-        htmlWithEmojis = emoji.replace_colons(parsedHTML);
+        htmlWithEmojis = mdConverter.makeHtml(textWithEmojis);
 
       this.$store.dispatch({
         type: "storeHTML",
