@@ -16,6 +16,7 @@
   &__column {
     flex-basis: 50%;
     width: 50%;
+    height: 100vh;
   }
 }
 </style>

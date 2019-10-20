@@ -16,9 +16,7 @@
 
 <style>
 .page__header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -27,7 +25,6 @@
   padding: 1em;
   color: #fff;
   border-bottom: 1px solid #404040;
-  z-index: 1;
 
   h1 {
     font-size: 1.125em;
