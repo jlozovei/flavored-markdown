@@ -140,11 +140,11 @@
 
 /* inputs */
 .markdown-flavored--github {
-  [type="checkbox"] {
+  [type='checkbox'] {
     appearance: checkbox;
   }
 
-  [type="radio"] {
+  [type='radio'] {
     appearance: radio;
   }
 }
