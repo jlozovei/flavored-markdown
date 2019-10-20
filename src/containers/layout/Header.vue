@@ -16,14 +16,18 @@
 
 <style>
 .page__header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+  height: 60px;
   padding: 1em;
   color: #fff;
   border-bottom: 1px solid #404040;
+  z-index: 1;
 
   h1 {
     font-size: 1.125em;

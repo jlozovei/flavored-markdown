@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <label for="md-style">Style</label>
+    <label for="md-style">Style:</label>
     <select id="md-style" @change="setFlavor">
       <option
         v-for="flavor in availableFlavors"
@@ -13,6 +13,17 @@
     </select>
   </nav>
 </template>
+
+<style scoped>
+nav {
+  font-size: 1rem;
+
+  select {
+    margin-left: 0.5rem;
+    padding: 0.125rem 1.625rem 0.125rem 0.5rem;
+  }
+}
+</style>
 
 <script>
 export default {
