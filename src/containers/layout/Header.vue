@@ -8,9 +8,7 @@
 
     <div class="header__disclaimer">
       Crafted with <span class="heart" aria-label="love">&hearts;</span> by
-      <a href="https://jlozovei.dev" target="_blank" rel="noopener noreferrer"
-        >jlozovei</a
-      >
+      <a href="https://jlozovei.dev" target="_blank" rel="noopener noreferrer">jlozovei</a>
       | &copy; {{ currentYear }}
     </div>
   </header>
@@ -53,10 +51,10 @@
 </style>
 
 <script>
-import Menu from "components/editor/Menu";
+import Menu from 'components/editor/Menu';
 
 export default {
-  name: "Header",
+  name: 'Header',
   components: {
     Menu
   },

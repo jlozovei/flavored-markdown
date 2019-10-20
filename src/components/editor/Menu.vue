@@ -16,17 +16,17 @@
 
 <script>
 export default {
-  name: "Menu",
+  name: 'Menu',
   data() {
     return {
       flavors: [
         {
-          name: "GitHub",
-          value: "github"
+          name: 'GitHub',
+          value: 'github'
         },
         {
-          name: "Bitbucket",
-          value: "bitbucket"
+          name: 'Bitbucket',
+          value: 'bitbucket'
         }
       ]
     };
@@ -36,7 +36,7 @@ export default {
       const flavor = event.target.value;
 
       this.$store.dispatch({
-        type: "storeFlavor",
+        type: 'storeFlavor',
         value: flavor
       });
     }
