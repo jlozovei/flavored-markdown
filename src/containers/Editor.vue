@@ -16,16 +16,17 @@
   &__column {
     flex-basis: 50%;
     width: 50%;
+    height: 100vh;
   }
 }
 </style>
 
 <script>
-import Form from "components/editor/Form";
-import Result from "components/editor/Result";
+import Form from 'components/editor/Form';
+import Result from 'components/editor/Result';
 
 export default {
-  name: "Editor",
+  name: 'Editor',
   components: {
     Form,
     Result

@@ -33,28 +33,27 @@
 </style>
 
 <script>
-import Showdown from "showdown";
-import Emoji from "emoji-js";
+import Showdown from 'showdown';
+import Emoji from 'emoji-js';
 
 export default {
-  name: "Form",
+  name: 'Form',
   data() {
     return {
-      markdown: ""
+      markdown: ''
     };
   },
   mounted() {
-    if (this.previousStoredMarkdown)
-      this.$data.markdown = this.previousStoredMarkdown;
+    if (this.previousStoredMarkdown) this.$data.markdown = this.previousStoredMarkdown;
     else this.initialState();
   },
   methods: {
     initialState() {
-      const initialMarkdown = "# Start typing here :smile:";
+      const initialMarkdown = '# Start typing here :smile:';
       this.$data.markdown = initialMarkdown;
 
       this.$store.dispatch({
-        type: "storeMarkdown",
+        type: 'storeMarkdown',
         value: initialMarkdown
       });
 
@@ -67,7 +66,7 @@ export default {
       this.parse(raw);
 
       this.$store.dispatch({
-        type: "storeMarkdown",
+        type: 'storeMarkdown',
         value: raw
       });
     },
@@ -87,7 +86,7 @@ export default {
         htmlWithEmojis = mdConverter.makeHtml(textWithEmojis);
 
       this.$store.dispatch({
-        type: "storeHTML",
+        type: 'storeHTML',
         value: htmlWithEmojis
       });
     }
@@ -98,7 +97,7 @@ export default {
     },
 
     previousStoredMarkdown() {
-      return this.$store.getters["markdown"];
+      return this.$store.getters['markdown'];
     }
   }
 };

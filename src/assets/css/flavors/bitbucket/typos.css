@@ -1,75 +1,82 @@
-/* Headings */
+/* headings */
 .markdown-flavored--bitbucket {
   h1,
-  h2,
-  h3,
+  h2 {
+    letter-spacing: -0.01em;
+    margin-top: 40px;
+  }
+
+  h1,
   h4,
   h5,
   h6 {
-    margin-top: 24px;
-    margin-bottom: 16px;
     font-weight: 600;
-    line-height: 1.25;
+  }
 
-    .octicon-link {
-      color: #1b1f23;
-      vertical-align: middle;
-      visibility: hidden;
-    }
-
-    &:hover .anchor {
-      text-decoration: none;
-
-      .octicon-link {
-        visibility: visible;
-      }
-    }
-
-    tt,
-    code {
-      font-size: inherit;
-    }
+  h2,
+  h3 {
+    font-weight: 500;
   }
 
   h1 {
-    padding-bottom: 0.3em;
-    font-size: 2em;
-    border-bottom: 1px solid #eaecef;
+    font-size: 2.0714285714285716em;
+    line-height: 1.103448275862069;
   }
 
   h2 {
-    padding-bottom: 0.3em;
-    font-size: 1.5em;
-    border-bottom: 1px solid #eaecef;
+    font-size: 1.7142857142857142em;
+    line-height: 1.1666666666666667;
   }
 
   h3 {
-    font-size: 1.25em;
+    font-size: 1.4285714285714286em;
+    line-height: 1.2;
+    letter-spacing: -0.008em;
+    margin-top: 28px;
   }
 
   h4 {
-    font-size: 1em;
+    font-size: 1.1428571428571428em;
+    font-style: inherit;
+    line-height: 1.25;
+    letter-spacing: -0.006em;
+    margin-top: 24px;
   }
 
   h5 {
-    font-size: 0.875em;
+    font-size: 1em;
+    font-style: inherit;
+    line-height: 1.1428571428571428;
+    letter-spacing: -0.003em;
+    margin-top: 16px;
   }
 
   h6 {
-    font-size: 0.85em;
-    color: #6a737d;
+    font-size: 0.8571428571428571em;
+    line-height: 1.3333333333333333;
+    margin-top: 20px;
+    text-transform: uppercase;
   }
 }
 
 /* link */
 .markdown-flavored--bitbucket {
   a {
-    color: #0366d6;
+    color: #0052cc;
     text-decoration: none;
 
-    &:hover,
-    &:active {
+    &:hover {
+      color: #0065ff;
       text-decoration: underline;
+    }
+
+    &:focus {
+      outline: 2px solid #4c9aff;
+      outline-offset: 2px;
+    }
+
+    &:active {
+      color: #0747a6;
     }
   }
 }
@@ -77,49 +84,58 @@
 /* lists */
 .markdown-flavored--bitbucket {
   ul,
-  ol {
-    padding-left: 2em;
-
-    &.no-list {
-      padding: 0;
-      list-style-type: none;
-    }
-  }
-
-  ul ul,
-  ul ol,
-  ol ol,
-  ol ul {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  li {
-    word-wrap: break-all;
-  }
-
-  li > p {
-    margin-top: 16px;
-  }
-
-  li + li {
-    margin-top: 0.25em;
-  }
-
+  ol,
   dl {
-    padding: 0;
+    padding-left: 40px;
+  }
 
-    dt {
-      padding: 0;
-      margin-top: 16px;
-      font-size: 1em;
-      font-style: italic;
-      font-weight: 600;
+  ul {
+    li {
+      list-style-type: disc;
+    }
+  }
+
+  ol {
+    li {
+      list-style-type: decimal;
+    }
+  }
+}
+
+/* texts */
+.markdown-flavored--bitbucket {
+  p,
+  li {
+    overflow-wrap: break-word;
+  }
+
+  blockquote {
+    color: rgb(122, 134, 154);
+    border-left: 1px solid rgb(193, 199, 208);
+    padding: 8px 24px;
+    margin: 8px 0px 0px;
+
+    &:before {
+      content: '\201C';
+      float: left;
+      margin-left: -1em;
+      text-align: right;
+      width: 1em;
     }
 
-    dd {
-      padding: 0 16px;
-      margin-bottom: 16px;
+    &:after {
+      content: '\201D';
     }
+  }
+}
+
+/* inputs */
+.markdown-flavored--bitbucket {
+  [type='checkbox'] {
+    appearance: checkbox;
+  }
+
+  [type='radio'] {
+    appearance: radio;
   }
 }

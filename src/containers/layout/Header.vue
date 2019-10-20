@@ -2,13 +2,13 @@
   <header class="page__header">
     <h1 class="header__title">Flavored Markdown</h1>
 
-    <div class="header__menu"></div>
+    <div class="header__menu">
+      <Menu />
+    </div>
 
     <div class="header__disclaimer">
       Crafted with <span class="heart" aria-label="love">&hearts;</span> by
-      <a href="https://jlozovei.dev" target="_blank" rel="noopener noreferrer"
-        >jlozovei</a
-      >
+      <a href="https://jlozovei.dev" target="_blank" rel="noopener noreferrer">jlozovei</a>
       | &copy; {{ currentYear }}
     </div>
   </header>
@@ -21,6 +21,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+  height: 60px;
   padding: 1em;
   color: #fff;
   border-bottom: 1px solid #404040;
@@ -51,8 +52,13 @@
 </style>
 
 <script>
+import Menu from 'components/editor/Menu';
+
 export default {
-  name: "Header",
+  name: 'Header',
+  components: {
+    Menu
+  },
   data() {
     return {
       currentYear: new Date().getFullYear()

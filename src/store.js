@@ -1,9 +1,9 @@
-import Vue from "vue";
-import Vuex from "vuex";
-import VuexPersist from "vuex-persist";
+import Vue from 'vue';
+import Vuex from 'vuex';
+import VuexPersist from 'vuex-persist';
 
 const vuexPersist = new VuexPersist({
-  key: "flavored-md",
+  key: 'flavored-md',
   storage: window.localStorage
 });
 
@@ -14,10 +14,10 @@ export default new Vuex.Store({
 
   state: {
     editor: {
-      markdown: "",
-      html: ""
+      markdown: '',
+      html: ''
     },
-    flavor: "github"
+    flavor: 'github'
   },
 
   mutations: {
@@ -36,15 +36,15 @@ export default new Vuex.Store({
 
   actions: {
     storeMarkdown({ commit }, payload) {
-      commit("setMarkdown", payload.value);
+      commit('setMarkdown', payload.value);
     },
 
     storeHTML({ commit }, payload) {
-      commit("setHTML", payload.value);
+      commit('setHTML', payload.value);
     },
 
     storeFlavor({ commit }, payload) {
-      commit("setHTML", payload.value);
+      commit('setFlavor', payload.value);
     }
   },
 
