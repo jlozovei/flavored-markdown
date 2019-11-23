@@ -1,0 +1,11 @@
+.markdown-flavored--gitlab {
+  img {
+    min-width: inherit;
+    min-height: inherit;
+    background-color: inherit;
+    max-width: 100%;
+    margin: 0 0 8px;
+    vertical-align: middle;
+    border-style: none;
+  }
+}
