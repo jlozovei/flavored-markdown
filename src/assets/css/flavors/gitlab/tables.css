@@ -1,0 +1,28 @@
+.markdown-flavored--gitlab {
+  table {
+    margin: 16px 0;
+    color: #2e2e2e;
+    border: 0;
+    width: auto;
+    display: block;
+    overflow-x: auto;
+
+    th,
+    td {
+      padding: 10px 16px;
+      line-height: 20px;
+      vertical-align: middle;
+      border: 1px solid #e5e5e5;
+    }
+
+    th {
+      background-color: #fafafa;
+      font-weight: 400;
+      border-bottom: solid 2px #ccc;
+    }
+
+    td {
+      border-color: #ccc;
+    }
+  }
+}

@@ -38,6 +38,10 @@ export default {
         {
           name: 'Bitbucket',
           value: 'bitbucket'
+        },
+        {
+          name: 'GitLab',
+          value: 'gitlab'
         }
       ]
     };
