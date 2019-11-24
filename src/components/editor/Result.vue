@@ -5,8 +5,9 @@
 </template>
 
 <style>
-@import '../../assets/css/flavors/github/index.css';
+@import '../../assets/css/flavors/azure/index.css';
 @import '../../assets/css/flavors/bitbucket/index.css';
+@import '../../assets/css/flavors/github/index.css';
 @import '../../assets/css/flavors/gitlab/index.css';
 
 .result-wrapper,

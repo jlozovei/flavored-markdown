@@ -32,12 +32,16 @@ export default {
     return {
       flavors: [
         {
-          name: 'GitHub',
-          value: 'github'
+          name: 'Azure',
+          value: 'azure'
         },
         {
           name: 'Bitbucket',
           value: 'bitbucket'
+        },
+        {
+          name: 'GitHub',
+          value: 'github'
         },
         {
           name: 'GitLab',
