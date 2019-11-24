@@ -1,0 +1,45 @@
+.markdown-flavored--azure {
+  font-family: 'Segoe UI VSS (Regular)', 'Segoe UI', '-apple-system', BlinkMacSystemFont, Roboto,
+    'Helvetica Neue', Helvetica, Ubuntu, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.9);
+  word-wrap: break-word;
+
+  * {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+  p,
+  ul,
+  ol,
+  dl,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  pre,
+  form,
+  table {
+    margin: 12px 0 0 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+@import './typos';
+@import './tables';
+@import './images';
+@import './codes';

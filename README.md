@@ -9,8 +9,9 @@ A live markdown editor to create nice looking `.md` files.
 The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown it uses [showdown](https://github.com/showdownjs/showdown) with [emoji-js](https://github.com/iamcal/js-emoji).
 
 You can switch the rendered HTML's style between:
-- GitHub Markdown Style: [Guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) | [Style](https://primer.style/css/components/markdown)
+- Azure Markdown Style: [Guide](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance)
 - Bitbucket Markdown Style: [Guide](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
+- GitHub Markdown Style: [Guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) | [Style](https://primer.style/css/components/markdown)
 - GitLab Markdown Style: [Guide](https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/) | [User Docs](https://docs.gitlab.com/ee/user/markdown.html)
 
 

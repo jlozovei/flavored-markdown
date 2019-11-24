@@ -1,0 +1,28 @@
+.markdown-flavored--azure {
+  pre,
+  code {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  code,
+  kbd {
+    font-family: Menlo, Consolas, Courier New, monospace;
+    font-size: 12px;
+    background-color: rgba(234, 234, 234, 1);
+    white-space: pre-wrap;
+    word-wrap: normal;
+    word-break: keep-all;
+    padding: 2px 4px;
+  }
+
+  pre {
+    display: block;
+    padding: 15px;
+    background-color: rgba(234, 234, 234, 1);
+    font-family: monospace;
+    -webkit-text-size-adjust: none;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+  }
+}

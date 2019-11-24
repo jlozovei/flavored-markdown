@@ -1,0 +1,123 @@
+/* headings */
+.markdown-flavored--azure {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 14px 0;
+    border: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1.2;
+    margin-top: 28px;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 21px;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+}
+
+/* link */
+.markdown-flavored--azure {
+  a {
+    text-decoration: none;
+    color: #005a9e;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* lists */
+.markdown-flavored--azure {
+  ul,
+  ol {
+    margin: 1rem 0;
+  }
+
+  ul {
+    padding: 0 0 0 20px;
+
+    li {
+      list-style-type: disc;
+    }
+  }
+
+  ol {
+    padding: 0 0 0 40px;
+
+    li {
+      list-style-type: decimal;
+    }
+  }
+}
+
+/* texts */
+.markdown-flavored--azure {
+  p {
+    font-size: inherit;
+    margin: 1rem 0;
+  }
+
+  blockquote {
+    color: rgba(0, 0, 0, 0.55);
+    border-left: 3px solid #737373;
+    padding-left: 15px;
+    margin-left: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+    p {
+      margin: 4px 0;
+    }
+  }
+}
+
+/* inputs */
+.markdown-flavored--azure {
+  [type='checkbox'] {
+    appearance: checkbox;
+  }
+
+  [type='radio'] {
+    appearance: radio;
+  }
+}
