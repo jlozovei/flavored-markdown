@@ -73,18 +73,10 @@
 
   ul {
     padding: 0 0 0 20px;
-
-    li {
-      list-style-type: disc;
-    }
   }
 
   ol {
     padding: 0 0 0 40px;
-
-    li {
-      list-style-type: decimal;
-    }
   }
 }
 
