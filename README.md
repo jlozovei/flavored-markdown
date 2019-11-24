@@ -6,7 +6,7 @@ See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.gith
 
 ## :scroll: About
 A live markdown editor to create nice looking `.md` files.  
-The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown it uses [showdown](https://github.com/showdownjs/showdown) with [emoji-js](https://github.com/iamcal/js-emoji).
+The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown, using [marked](https://github.com/markedjs/marked) with [emoji-js](https://github.com/iamcal/js-emoji).
 
 You can switch the rendered HTML's style between:
 - Azure Markdown Style: [Guide](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance)
