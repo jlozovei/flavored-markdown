@@ -33,7 +33,7 @@
 </style>
 
 <script>
-import Showdown from 'showdown';
+import marked from 'marked';
 import Emoji from 'emoji-js';
 
 export default {
@@ -77,13 +77,7 @@ export default {
         textWithEmojis = emojiConvertor.replace_colons(raw);
 
       // parse html
-      const mdConverter = new Showdown.Converter({
-          simplifiedAutoLink: true,
-          tasklists: true,
-          tables: true,
-          strikethrough: true
-        }),
-        htmlWithEmojis = mdConverter.makeHtml(textWithEmojis);
+      const htmlWithEmojis = marked(textWithEmojis);
 
       this.$store.dispatch({
         type: 'storeHTML',
