@@ -73,18 +73,6 @@
     margin: 0 0 16px;
   }
 
-  ul {
-    li {
-      list-style-type: disc;
-    }
-  }
-
-  ol {
-    li {
-      list-style-type: decimal;
-    }
-  }
-
   li {
     line-height: 1.6em;
     margin-left: 25px;

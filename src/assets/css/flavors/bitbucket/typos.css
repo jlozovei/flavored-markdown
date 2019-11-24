@@ -88,18 +88,6 @@
   dl {
     padding-left: 40px;
   }
-
-  ul {
-    li {
-      list-style-type: disc;
-    }
-  }
-
-  ol {
-    li {
-      list-style-type: decimal;
-    }
-  }
 }
 
 /* texts */
