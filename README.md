@@ -1,6 +1,6 @@
 # Flavored Markdown
 
-Markdown editor with flavors :icecream:  
+Markdown in-browser editor with flavors :icecream:  
 See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.github.io/flavored-markdown).
 
 
@@ -23,6 +23,7 @@ Here are other cool live markdown editors:
 
 - [jbt/markdown-editor](https://github.com/jbt/markdown-editor)
 - [liyasthomas/marcdown](https://github.com/liyasthomas/marcdown)
+- [benweet/stackedit](https://github.com/benweet/stackedit)
 
 And some nice markdown editors:
 
