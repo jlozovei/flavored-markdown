@@ -31,7 +31,7 @@ body,
     flex: 1;
 
     &,
-    & * {
+    & > div {
       max-height: calc(100vh - 60px);
     }
   }
