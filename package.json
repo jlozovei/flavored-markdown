@@ -1,6 +1,6 @@
 {
   "name": "flavored-markdown",
-  "description": "Markdown in-browser editor with flavors",
+  "description": "Markdown editor with flavors",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -24,6 +24,7 @@
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "^1.0.0-beta.32",
     "babel-eslint": "^10.0.1",
     "cssnano": "^4.1.10",
     "eslint": "^5.8.0",
@@ -36,7 +37,6 @@
     "rucksack-css": "^1.0.2",
     "vue-template-compiler": "^2.5.21"
   },
-  "description": "Markdown editor with flavors",
   "main": "src/main.js",
   "repository": {
     "type": "git",
