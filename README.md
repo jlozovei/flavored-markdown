@@ -9,7 +9,7 @@ A live markdown editor to create nice looking `.md` files.
 
 The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown, using [marked](https://github.com/markedjs/marked) with [emoji-js](https://github.com/iamcal/js-emoji).
 
-Using [yarn](https://yarnpkg.com/) as the package manager.
+Using [npm](https://npmjs.com) as the package manager.
 
 You can switch the rendered HTML's style between:
 - Azure Markdown Style: [Guide](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance)
@@ -59,7 +59,6 @@ yarn start
 
 ## :clipboard: Todo
 - [ ] Test cases (?)
-- [ ] Add CI
 
 
 ## :closed_lock_with_key: License
