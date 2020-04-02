@@ -1,12 +1,15 @@
 # Flavored Markdown
 
-Markdown editor with flavors :icecream:  
+Markdown in-browser editor with flavors :icecream:  
 See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.github.io/flavored-markdown).
 
 
 ## :scroll: About
-A live markdown editor to create nice looking `.md` files.  
+A live markdown editor to create nice looking `.md` files.
+
 The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown, using [marked](https://github.com/markedjs/marked) with [emoji-js](https://github.com/iamcal/js-emoji).
+
+Using [yarn](https://yarnpkg.com/) as the package manager.
 
 You can switch the rendered HTML's style between:
 - Azure Markdown Style: [Guide](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance)
@@ -20,6 +23,7 @@ Here are other cool live markdown editors:
 
 - [jbt/markdown-editor](https://github.com/jbt/markdown-editor)
 - [liyasthomas/marcdown](https://github.com/liyasthomas/marcdown)
+- [benweet/stackedit](https://github.com/benweet/stackedit)
 
 And some nice markdown editors:
 
@@ -36,11 +40,27 @@ You can contribute to this project following the steps below:
 - Fill a PR, assign it to you and, if possible, write a cool description
 - Wait for the review
 
+Also, take a look at the [contributing guide](https://github.com/jlozovei/trim-currency/blob/master/.github/CONTRIBUTING.md)!
+
+
+## :computer: Developing
+After forking and cloning the project in your local environment, run the following commands:
+
+```bash
+# install dependencies
+yarn
+# or npm i
+
+# run the project at localhost:8000
+yarn start
+# or npm start
+```
+
 
 ## :clipboard: Todo
 - [ ] Test cases (?)
-- [ ] Contributing.md
 - [ ] Add CI
+
 
 ## :closed_lock_with_key: License
 
