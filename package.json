@@ -2,15 +2,16 @@
   "name": "flavored-markdown",
   "version": "0.1.0",
   "private": false,
+  "description": "Markdown editor with flavors",
+  "author": "Julio Lozovei <jlozovei@gmail.com> (https://jlozovei.dev)",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "start": "vue-cli-service serve",
-    "predeploy": "npm run build && cp README.md ./dist",
-    "deploy": "gh-pages -d dist",
-    "postdeploy": "rm -rf dist"
+    "build": "vue-cli-service build",
+    "postbuild": "cp README.md ./dist",
+    "lint": "vue-cli-service lint"
   },
+  "main": "src/main.js",
   "dependencies": {
     "emoji-js": "^3.4.1",
     "marked": "^0.7.0",
@@ -21,7 +22,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
+    "@vue/cli-service": "^4.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "cssnano": "^4.1.10",
@@ -35,18 +36,6 @@
     "rucksack-css": "^1.0.2",
     "vue-template-compiler": "^2.5.21"
   },
-  "description": "Markdown editor with flavors",
-  "main": "src/main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jlozovei/flavored-markdown.git"
-  },
-  "author": "Julio Lozovei <jlozovei@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jlozovei/flavored-markdown/issues"
-  },
-  "homepage": "https://github.com/jlozovei/flavored-markdown#readme",
   "postcss": {
     "plugins": {
       "autoprefixer": {},
@@ -62,5 +51,14 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/jlozovei/flavored-markdown/issues"
+  },
+  "homepage": "https://github.com/jlozovei/flavored-markdown#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlozovei/flavored-markdown.git"
+  }
 }

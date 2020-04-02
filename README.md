@@ -40,6 +40,8 @@ You can contribute to this project following the steps below:
 - Fill a PR, assign it to you and, if possible, write a cool description
 - Wait for the review
 
+Also, take a look at the [contributing guide](https://github.com/jlozovei/trim-currency/blob/master/.github/CONTRIBUTING.md)!
+
 
 ## :computer: Developing
 After forking and cloning the project in your local environment, run the following commands:
@@ -57,7 +59,6 @@ yarn start
 
 ## :clipboard: Todo
 - [ ] Test cases (?)
-- [ ] Contributing.md
 - [ ] Add CI
 
 
