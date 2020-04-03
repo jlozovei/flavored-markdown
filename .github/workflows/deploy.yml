@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   release:
-    name: Deploy to GH Pages
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
@@ -16,9 +16,9 @@ jobs:
           node-version: 12
       - name: Install dependencies
         run: npm install
-      - name: Build Project
+      - name: Build
         run: npm run build
-      - name: Deploy
+      - name: Push to gh-pages
         uses: crazy-max/ghaction-github-pages@v1.3.0
         with:
           build_dir: dist
