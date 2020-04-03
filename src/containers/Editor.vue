@@ -22,8 +22,8 @@
 </style>
 
 <script>
-import Form from 'components/editor/Form';
-import Result from 'components/editor/Result';
+import Form from '@/components/editor/Form';
+import Result from '@/components/editor/Result';
 
 export default {
   name: 'Editor',

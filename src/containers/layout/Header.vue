@@ -52,7 +52,7 @@
 </style>
 
 <script>
-import Menu from 'components/editor/Menu';
+import Menu from '@/components/editor/Menu';
 
 export default {
   name: 'Header',
