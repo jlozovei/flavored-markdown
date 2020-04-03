@@ -1,6 +1,6 @@
 # Flavored Markdown
 
-Markdown in-browser editor with flavors :icecream:  
+In-browser markdown editor with flavors :icecream:  
 See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.github.io/flavored-markdown).
 
 
@@ -9,7 +9,7 @@ A live markdown editor to create nice looking `.md` files.
 
 The project was created with [vue-cli](https://cli.vuejs.org/). Written in [Vue](https://vuejs.org/), it uses [vuex](https://vuex.vuejs.org/) as state manager. To parse/render the markdown, using [marked](https://github.com/markedjs/marked) with [emoji-js](https://github.com/iamcal/js-emoji).
 
-Using [yarn](https://yarnpkg.com/) as the package manager.
+Using [npm](https://npmjs.com) as the package manager.
 
 You can switch the rendered HTML's style between:
 - Azure Markdown Style: [Guide](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance)
@@ -48,20 +48,14 @@ After forking and cloning the project in your local environment, run the followi
 
 ```bash
 # install dependencies
-yarn
-# or npm i
+npm i
+# or yarn
 
 # run the project at localhost:8000
-yarn start
-# or npm start
+npm start
+# or yarn start
 ```
 
 
-## :clipboard: Todo
-- [ ] Test cases (?)
-- [ ] Add CI
-
-
 ## :closed_lock_with_key: License
-
 Licensed under the [MIT License](https://github.com/jlozovei/flavored-markdown/blob/master/LICENSE).
