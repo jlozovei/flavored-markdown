@@ -61,20 +61,20 @@ export default {
     },
 
     keyup() {
-      const raw = this.rawMarkdown;
+      const markdown = this.rawMarkdown;
 
-      this.parse(raw);
+      this.parse(markdown);
 
       this.$store.dispatch({
         type: 'storeMarkdown',
-        value: raw
+        value: markdown
       });
     },
 
-    parse(raw) {
+    parse(markdown) {
       // parse emojis
       const emojiConvertor = new Emoji.EmojiConvertor(),
-        textWithEmojis = emojiConvertor.replace_colons(raw);
+        textWithEmojis = emojiConvertor.replace_colons(markdown);
 
       // parse html
       const htmlWithEmojis = marked(textWithEmojis);
@@ -83,6 +83,8 @@ export default {
         type: 'storeHTML',
         value: htmlWithEmojis
       });
+
+      return htmlWithEmojis;
     }
   },
   computed: {
