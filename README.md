@@ -1,6 +1,6 @@
 # Flavored Markdown
 
-Markdown in-browser editor with flavors :icecream:  
+In-browser markdown editor with flavors :icecream:  
 See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.github.io/flavored-markdown).
 
 
@@ -48,19 +48,14 @@ After forking and cloning the project in your local environment, run the followi
 
 ```bash
 # install dependencies
-yarn
-# or npm i
+npm i
+# or yarn
 
 # run the project at localhost:8000
-yarn start
-# or npm start
+npm start
+# or yarn start
 ```
 
 
-## :clipboard: Todo
-- [ ] Test cases (?)
-
-
 ## :closed_lock_with_key: License
-
 Licensed under the [MIT License](https://github.com/jlozovei/flavored-markdown/blob/master/LICENSE).
