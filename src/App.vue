@@ -13,9 +13,9 @@
 </style>
 
 <script>
-import Page from 'containers/Page';
-import Editor from 'containers/Editor';
-import Header from 'containers/layout/Header';
+import Page from '@/containers/Page';
+import Editor from '@/containers/Editor';
+import Header from '@/containers/layout/Header';
 
 export default {
   name: 'app',

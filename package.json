@@ -2,14 +2,15 @@
   "name": "flavored-markdown",
   "version": "0.1.0",
   "private": false,
-  "description": "Markdown editor with flavors",
+  "description": "In-browser markdown editor with flavors",
   "author": "Julio Lozovei <jlozovei@gmail.com> (https://jlozovei.dev)",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "test": "jest",
+    "lint": "vue-cli-service lint",
     "postbuild": "cp README.md ./dist",
-    "lint": "vue-cli-service lint"
+    "start": "vue-cli-service serve"
   },
   "main": "src/main.js",
   "dependencies": {
@@ -20,15 +21,20 @@
     "vuex-persist": "^2.1.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-plugin-unit-jest": "^4.2.3",
     "@vue/cli-service": "^4.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "^1.0.0-beta.32",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^25.2.6",
     "cssnano": "^4.1.10",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "gh-pages": "^2.0.1",
+    "jest": "^25.2.6",
     "postcss-custom-properties": "^9.0.2",
     "postcss-custom-selectors": "^5.1.2",
     "postcss-preset-env": "^6.7.0",
