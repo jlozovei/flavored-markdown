@@ -16,6 +16,7 @@ You can switch the rendered HTML's style between:
 - Bitbucket Markdown Style: [Guide](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
 - GitHub Markdown Style: [Guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) | [Style](https://primer.style/css/components/markdown)
 - GitLab Markdown Style: [Guide](https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/) | [User Docs](https://docs.gitlab.com/ee/user/markdown.html)
+- npm Markdown Style
 
 
 ### :sparkles: Related
@@ -40,7 +41,7 @@ You can contribute to this project following the steps below:
 - Fill a PR, assign it to you and, if possible, write a cool description
 - Wait for the review
 
-Also, take a look at the [contributing guide](https://github.com/jlozovei/trim-currency/blob/master/.github/CONTRIBUTING.md)!
+Also, take a look at the [contributing guide](https://github.com/jlozovei/flavored-markdown/blob/master/.github/CONTRIBUTING.md)!
 
 
 ## :computer: Developing
