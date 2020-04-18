@@ -40,3 +40,7 @@ body,
 select {
   background: #ffffff url(assets/images/chevron-down.svg) no-repeat 90% 60%/0.625rem;
 }
+
+.markdown-flavored img {
+  display: inline;
+}
