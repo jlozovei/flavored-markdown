@@ -9,6 +9,7 @@
 @import '../../assets/css/flavors/bitbucket/index.css';
 @import '../../assets/css/flavors/github/index.css';
 @import '../../assets/css/flavors/gitlab/index.css';
+@import '../../assets/css/flavors/npm/index.css';
 
 .result-wrapper,
 .markdown-flavored {

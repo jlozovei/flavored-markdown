@@ -46,6 +46,10 @@ export default {
         {
           name: 'GitLab',
           value: 'gitlab'
+        },
+        {
+          name: 'npm',
+          value: 'npm'
         }
       ]
     };

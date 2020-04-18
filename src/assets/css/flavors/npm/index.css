@@ -1,0 +1,47 @@
+.markdown-flavored--npm {
+  padding-top: 8px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+}
+
+.markdown-flavored--npm ._280057d3 {
+  font-size: 3em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+
+.markdown-flavored--npm > *:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-flavored--npm hr {
+  opacity: 0.2;
+  height: 0px;
+}
+
+.markdown-flavored--npm svg .bab41d78 {
+  float: right;
+  margin-right: 48px;
+  margin-right: 3rem;
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+.markdown-flavored--npm svg .bab41d78:first-child {
+  padding-top: 20px;
+}
+
+.markdown-flavored--npm img {
+  max-width: 100%;
+}
+
+@import './typos';
+@import './deep-link';
+@import './codes';
+@import './syntax';

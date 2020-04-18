@@ -1,0 +1,193 @@
+/* syntax highlighting */
+.markdown-flavored--npm .highlight {
+  background-color: #f0f0f0;
+  color: #000;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+.markdown-flavored--npm .highlight .invisible-character {
+  color: rgba(85, 85, 85, 0.2);
+}
+.markdown-flavored--npm .highlight .indent-guide {
+  color: rgba(85, 85, 85, 0.2);
+}
+.markdown-flavored--npm .highlight .wrap-guide {
+  background-color: rgba(85, 85, 85, 0.2);
+}
+.markdown-flavored--npm .highlight .gutter {
+  color: #000;
+  background: #fff;
+}
+.markdown-flavored--npm .highlight .gutter .line-number.folded,
+.markdown-flavored--npm .highlight .gutter .line-number:after,
+.markdown-flavored--npm .highlight .fold-marker:after {
+  color: #e87b00;
+}
+.markdown-flavored--npm .highlight .invisible {
+  color: #555;
+}
+.markdown-flavored--npm .highlight .selection .region {
+  background-color: #e1e1e1;
+}
+.markdown-flavored--npm .highlight.is-focused .cursor {
+  border-color: #000;
+}
+.markdown-flavored--npm .highlight.is-focused .selection .region {
+  background-color: #afc4da;
+}
+.markdown-flavored--npm .highlight.is-focused .line-number.cursor-line-no-selection,
+.markdown-flavored--npm .highlight.is-focused .line.cursor-line {
+  background-color: rgba(255, 255, 134, 0.34);
+}
+.markdown-flavored--npm .highlight .source.gfm {
+  color: #444;
+}
+.markdown-flavored--npm .highlight .gfm .markup.heading {
+  color: #111;
+}
+.markdown-flavored--npm .highlight .gfm .link {
+  color: #888;
+}
+.markdown-flavored--npm .highlight .gfm .variable.list {
+  color: #888;
+}
+.markdown-flavored--npm .highlight .markdown-flavored--npm .paragraph {
+  color: #444;
+}
+.markdown-flavored--npm .highlight .markdown-flavored--npm .heading {
+  color: #111;
+}
+.markdown-flavored--npm .highlight .markdown-flavored--npm .link {
+  color: #888;
+}
+.markdown-flavored--npm .highlight .markdown-flavored--npm .link .string {
+  color: #888;
+}
+.markdown-flavored--npm .highlight(.is-focused) .cursor {
+  border-color: #000;
+}
+.markdown-flavored--npm .highlight(.is-focused) .selection .region {
+  background-color: #afc4da;
+}
+.markdown-flavored--npm .highlight(.is-focused) .line-number.cursor-line-no-selection,
+.markdown-flavored--npm .highlight(.is-focused) .line.cursor-line {
+  background-color: rgba(255, 255, 134, 0.34);
+}
+.markdown-flavored--npm .comment {
+  color: #998;
+  font-style: italic;
+}
+.markdown-flavored--npm .string {
+  color: #d14;
+}
+.markdown-flavored--npm .string .source,
+.markdown-flavored--npm .string .meta.embedded.line {
+  color: #5a5a5a;
+}
+.markdown-flavored--npm .string .punctuation.section.embedded {
+  color: #920b2d;
+}
+.markdown-flavored--npm .string .punctuation.section.embedded .source {
+  color: #920b2d;
+}
+.markdown-flavored--npm .constant.numeric {
+  color: #d14;
+}
+.markdown-flavored--npm .constant.language {
+  color: #606aa1;
+}
+.markdown-flavored--npm .constant.character,
+.markdown-flavored--npm .constant.other {
+  color: #606aa1;
+}
+.markdown-flavored--npm .constant.symbol {
+  color: #990073;
+}
+.markdown-flavored--npm .constant.numeric.line-number.find-in-files .match {
+  color: rgba(143, 190, 0, 0.63);
+}
+.markdown-flavored--npm .variable {
+  color: #008080;
+}
+.markdown-flavored--npm .variable.parameter {
+  color: #606aa1;
+}
+.markdown-flavored--npm .keyword {
+  color: #222;
+  font-weight: bold;
+}
+.markdown-flavored--npm .keyword.unit {
+  color: #458;
+}
+.markdown-flavored--npm .keyword.special-method {
+  color: #0086b3;
+}
+.markdown-flavored--npm .storage {
+  color: #222;
+}
+.markdown-flavored--npm .storage.type {
+  color: #222;
+}
+.markdown-flavored--npm .entity.name.class {
+  text-decoration: underline;
+  color: #606aa1;
+}
+.markdown-flavored--npm .entity.other.inherited-class {
+  text-decoration: underline;
+  color: #606aa1;
+}
+.markdown-flavored--npm .entity.name.function {
+  color: #900;
+}
+.markdown-flavored--npm .entity.name.tag {
+  color: #008080;
+}
+.markdown-flavored--npm .entity.other.attribute-name {
+  color: #458;
+  font-weight: bold;
+}
+.markdown-flavored--npm .entity.name.filename.find-in-files {
+  color: #e6db74;
+}
+.markdown-flavored--npm .support.constant,
+.markdown-flavored--npm .support.function,
+.markdown-flavored--npm .support.type {
+  color: #458;
+}
+.markdown-flavored--npm .support.class {
+  color: #008080;
+}
+.markdown-flavored--npm .invalid {
+  color: #f8f8f0;
+  background-color: #00a8c6;
+}
+.markdown-flavored--npm .invalid.deprecated {
+  color: #f8f8f0;
+  background-color: #8fbe00;
+}
+.markdown-flavored--npm .meta.structure.dictionary.json > .string.quoted.double.json,
+.markdown-flavored--npm
+  .meta.structure.dictionary.json
+  > .string.quoted.double.json
+  .punctuation.string {
+  color: #000080;
+}
+.markdown-flavored--npm .meta.structure.dictionary.value.json > .string.quoted.double.json {
+  color: #d14;
+}
+.markdown-flavored--npm .meta.diff,
+.markdown-flavored--npm .meta.diff.header {
+  color: #75715e;
+}
+.markdown-flavored--npm .css.support.property-name {
+  font-weight: bold;
+  color: #333;
+}
+.markdown-flavored--npm .css.constant {
+  color: #099;
+}
+.markdown-flavored--npm .bracket-matcher .region {
+  background-color: #c9c9c9;
+  opacity: 0.7;
+  border-bottom: 0 none;
+}
