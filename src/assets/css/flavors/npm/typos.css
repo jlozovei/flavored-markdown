@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap');
+
+.markdown-flavored--npm * {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media screen and (min-width: 30em) {
+  .markdown-flavored--npm {
+    font-size: 1rem;
+  }
+}
+
+/* headings */
+.markdown-flavored--npm {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #111;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 0px;
+    padding-bottom: 0rem;
+    font-weight: 600;
+    line-height: 1.25;
+
+    a {
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  & > h1 {
+    margin: 24px 0 16px 0;
+    padding: 0;
+    padding-bottom: 7px;
+    text-align: left;
+    line-height: 1.2;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: -0.8px;
+
+    a {
+      color: text-color;
+      text-decoration: none;
+    }
+  }
+
+  & > h1,
+  h2 {
+    margin: 8px 0 16px 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    letter-spacing: -0.48px;
+    letter-spacing: -0.03rem;
+    margin: 16px 0 4px 0;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    padding-bottom: 8px;
+    letter-spacing: -0.48px;
+    letter-spacing: -0.03rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    letter-spacing: -0.16px;
+    letter-spacing: -0.01rem;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-size: 0.875rem;
+    letter-spacing: -0.16px;
+    letter-spacing: -0.01rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin: 16px 0 4px 0;
+  }
+}
+
+/* link */
+.markdown-flavored--npm {
+  a {
+    color: #cb3837;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  p,
+  li {
+    a {
+      font-weight: normal;
+    }
+  }
+}
+
+/* lists */
+.markdown-flavored--npm {
+  ol {
+    padding-left: 17px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    list-style-position: outside;
+    font-weight: 600;
+
+    li {
+      margin-bottom: 2px;
+    }
+  }
+
+  ol ol,
+  ul ul,
+  ol ul,
+  ul ol {
+    margin: 0 0 0 20px;
+  }
+
+  ol,
+  ul {
+    li {
+      margin-bottom: 6px;
+      font-size: 1em;
+    }
+  }
+
+  ul {
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 1.3;
+
+    li a {
+      font-size: 18px;
+      color: #cb3837;
+      text-decoration: none;
+      font-weight: normal;
+      line-height: 1.4;
+    }
+  }
+
+  li {
+    font-weight: 400;
+  }
+}
+
+/* texts */
+.markdown-flavored--npm {
+  blockquote {
+    background: #efefef;
+    padding: 1px 16px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: #cecece solid 10px;
+    border-radius: 3px;
+  }
+
+  h1:first-child {
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  & > h1:first-child > a:first-child {
+    display: none; /* no need for the deeplink for the top of the readme */
+  }
+
+  p,
+  li {
+    color: #333;
+
+    a {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 1.65;
+    letter-spacing: 0.1px;
+
+    li {
+      line-height: 1;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+  }
+
+  strong {
+    color: black;
+    font-weight: bolder;
+  }
+}
+
+.markdown-flavored--npm::first-letter-line {
+  font-size: 80px;
+  font-size: 5rem;
+  margin-top: 0;
+  font-weight: 100;
+}

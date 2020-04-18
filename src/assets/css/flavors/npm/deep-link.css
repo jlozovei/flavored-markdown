@@ -1,0 +1,21 @@
+.markdown-flavored--npm h1:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm h2:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm h3:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm h4:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm h5:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm h6:hover .deep-link .deep-link-icon,
+.markdown-flavored--npm .deep-link:hover .deep-link-icon,
+.markdown-flavored--npm .deep-link-icon:hover {
+  visibility: visible;
+}
+.markdown-flavored--npm {
+  .deep-link {
+    float: left;
+    margin-left: -20px;
+    padding-right: 4px;
+
+    .deep-link-icon {
+      visibility: hidden;
+    }
+  }
+}
