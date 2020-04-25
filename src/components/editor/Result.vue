@@ -10,6 +10,7 @@
 @import '../../assets/css/flavors/github/index.css';
 @import '../../assets/css/flavors/gitlab/index.css';
 @import '../../assets/css/flavors/npm/index.css';
+@import '../../assets/css/flavors/yarn/index.css';
 
 .result-wrapper,
 .markdown-flavored {

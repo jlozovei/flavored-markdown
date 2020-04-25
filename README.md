@@ -17,6 +17,7 @@ You can switch the rendered HTML's style between:
 - GitHub Markdown Style: [Guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) | [Style](https://primer.style/css/components/markdown)
 - GitLab Markdown Style: [Guide](https://about.gitlab.com/handbook/product/technical-writing/markdown-guide/) | [User Docs](https://docs.gitlab.com/ee/user/markdown.html)
 - npm Markdown Style
+- Yarn Markdown Style
 
 
 ### :sparkles: Related

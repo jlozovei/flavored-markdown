@@ -50,6 +50,10 @@ export default {
         {
           name: 'npm',
           value: 'npm'
+        },
+        {
+          name: 'Yarn',
+          value: 'yarn'
         }
       ]
     };
