@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|PT+Mono&display=swap');
+
+.markdown-flavored--yarn * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* headings */
+.markdown-flavored--yarn {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: rgb(90, 90, 90);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.25rem;
+  }
+}
+
+/* link */
+.markdown-flavored--yarn {
+  a {
+    color: #117cad;
+    text-decoration: none;
+  }
+}
+
+/* lists */
+.markdown-flavored--yarn {
+  li {
+    color: rgb(90, 90, 90);
+  }
+
+  ul,
+  ol {
+    display: block;
+    list-style-type: disc;
+    margin: 1em 0;
+    padding-left: 40px;
+
+    ul,
+    ol {
+      margin: 0;
+    }
+  }
+
+  ol {
+    li {
+      list-style-type: decimal;
+    }
+  }
+}
+
+/* texts */
+.markdown-flavored--yarn {
+  p {
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    color: rgb(90, 90, 90);
+  }
+
+  blockquote {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0px 0px 1rem;
+    border-left: 0.25rem solid rgb(236, 238, 239);
+  }
+}
