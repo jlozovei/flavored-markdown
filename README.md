@@ -1,7 +1,7 @@
 # Flavored Markdown
 
 In-browser markdown editor with flavors :icecream:  
-See it in action at [jlozovei.github.io/flavored-markdown](https://jlozovei.github.io/flavored-markdown).
+See it in action at [flavored-markdown.app](https://flavored-markdown.app).
 
 
 ## :scroll: About
