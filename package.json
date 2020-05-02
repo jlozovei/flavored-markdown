@@ -1,6 +1,6 @@
 {
   "name": "flavored-markdown",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "description": "In-browser markdown editor with flavors",
   "author": "Julio Lozovei <jlozovei@gmail.com> (https://jlozovei.dev)",
@@ -9,7 +9,7 @@
     "build": "vue-cli-service build",
     "test": "jest",
     "lint": "vue-cli-service lint",
-    "postbuild": "cp README.md ./dist",
+    "postbuild": "cp README.md ./dist && cp CNAME ./dist",
     "start": "vue-cli-service serve"
   },
   "main": "src/main.js",
@@ -60,7 +60,7 @@
   "bugs": {
     "url": "https://github.com/jlozovei/flavored-markdown/issues"
   },
-  "homepage": "https://github.com/jlozovei/flavored-markdown#readme",
+  "homepage": "https://flavored-markdown.app",
   "license": "MIT",
   "repository": {
     "type": "git",
