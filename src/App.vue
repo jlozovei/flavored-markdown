@@ -23,6 +23,9 @@ export default {
     Page,
     Header,
     Editor
+  },
+  mounted() {
+    this.$ga.page('/');
   }
 };
 </script>

@@ -66,6 +66,13 @@ export default {
         type: 'storeFlavor',
         value: flavor
       });
+
+      this.$ga.event({
+        eventCategory: 'Editor',
+        eventAction: 'Changed glavor',
+        eventLabel: flavor,
+        eventValue: flavor
+      });
     }
   },
   computed: {
