@@ -17,6 +17,7 @@
     "emoji-js": "^3.4.1",
     "marked": "^0.7.0",
     "vue": "^2.6.6",
+    "vue-analytics": "^5.22.1",
     "vuex": "^3.0.1",
     "vuex-persist": "^2.1.0"
   },
