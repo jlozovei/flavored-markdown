@@ -8,6 +8,8 @@
 </template>
 
 <style>
+@import './assets/css/settings/_screens.css';
+
 @import './assets/css/reset.css';
 @import './assets/css/custom.css';
 </style>

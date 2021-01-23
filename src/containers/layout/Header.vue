@@ -15,19 +15,28 @@
 </template>
 
 <style>
+@import '../../assets/css/settings/_screens.css';
+
 .page__header {
   position: relative;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 74px;
   padding: 1em;
   color: #fff;
   border-bottom: 1px solid #404040;
 
   h1 {
+    flex-basis: 50%;
     font-size: 1.125em;
+  }
+
+  @media screen and (min-width: $mobile) {
+    h1 {
+      flex-basis: auto;
+    }
   }
 }
 
