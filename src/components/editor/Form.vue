@@ -77,8 +77,8 @@ export default {
 
     parse(markdown) {
       // parse emojis
-      const emojiConvertor = new Emoji.EmojiConvertor(),
-        textWithEmojis = emojiConvertor.replace_colons(markdown);
+      const emojiConvertor = new Emoji.EmojiConvertor();
+      const textWithEmojis = emojiConvertor.replace_colons(markdown);
 
       // parse html
       const htmlWithEmojis = marked(textWithEmojis);
