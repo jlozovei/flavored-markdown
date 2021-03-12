@@ -9,5 +9,6 @@ module.exports = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
-  testMatch: ['**/tests/*.js']
+  testMatch: ['**/tests/*.js'],
+  setupFilesAfterEnv: ['./src/setupTests.js']
 };
