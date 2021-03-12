@@ -44,8 +44,12 @@ export default {
     };
   },
   mounted() {
-    if (this.previousStoredMarkdown) this.$data.markdown = this.previousStoredMarkdown;
-    else this.initialState();
+    if (this.hasPreviousData) {
+      this.$data.markdown = this.urlData || this.previousStoredMarkdown;
+      this.parse(this.rawMarkdown);
+    } else {
+      this.initialState();
+    }
   },
   methods: {
     initialState() {
@@ -73,8 +77,8 @@ export default {
 
     parse(markdown) {
       // parse emojis
-      const emojiConvertor = new Emoji.EmojiConvertor(),
-        textWithEmojis = emojiConvertor.replace_colons(markdown);
+      const emojiConvertor = new Emoji.EmojiConvertor();
+      const textWithEmojis = emojiConvertor.replace_colons(markdown);
 
       // parse html
       const htmlWithEmojis = marked(textWithEmojis);
@@ -94,6 +98,22 @@ export default {
 
     previousStoredMarkdown() {
       return this.$store.getters['markdown'];
+    },
+
+    hasURLParam() {
+      const searchParams = new URLSearchParams(location.search);
+
+      return searchParams.get('md') !== '' && searchParams.get('md') !== null;
+    },
+
+    urlData() {
+      const searchParams = new URLSearchParams(location.search);
+
+      return location.search !== '' && atob(searchParams.get('md'));
+    },
+
+    hasPreviousData() {
+      return this.hasURLParam || this.previousStoredMarkdown !== '';
     }
   }
 };

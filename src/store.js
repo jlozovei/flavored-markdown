@@ -17,7 +17,8 @@ export default new Vuex.Store({
       markdown: '',
       html: ''
     },
-    flavor: 'github'
+    flavor: 'github',
+    snackbar: null
   },
 
   mutations: {
@@ -31,6 +32,10 @@ export default new Vuex.Store({
 
     setFlavor(state, payload) {
       state.flavor = payload;
+    },
+
+    setSnackbar(state, payload) {
+      state.snackbar = payload;
     }
   },
 
@@ -45,6 +50,10 @@ export default new Vuex.Store({
 
     storeFlavor({ commit }, payload) {
       commit('setFlavor', payload.value);
+    },
+
+    showSnackbar({ commit }, payload) {
+      commit('setSnackbar', payload.value);
     }
   },
 
@@ -63,6 +72,10 @@ export default new Vuex.Store({
 
     flavor(state) {
       return state.flavor;
+    },
+
+    snackbar(state) {
+      return state.snackbar;
     }
   }
 });

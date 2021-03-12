@@ -32,7 +32,16 @@ body,
 
     &,
     & > div {
-      max-height: calc(100vh - 60px);
+      max-height: calc(100vh - 74px);
+    }
+  }
+
+  @media screen and (min-width: $mobile) {
+    &__editor {
+      &,
+      & > div {
+        max-height: calc(100vh - 60px);
+      }
     }
   }
 }
