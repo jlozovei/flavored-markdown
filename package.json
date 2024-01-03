@@ -15,7 +15,7 @@
   "main": "src/main.js",
   "dependencies": {
     "emoji-js": "^3.4.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "v-clipboard": "^2.2.3",
     "vue": "^2.6.12",
     "vue-analytics": "^5.22.1",
@@ -25,9 +25,9 @@
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
     "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^4.5.14",
-    "@vue/cli-plugin-unit-jest": "^4.5.14",
-    "@vue/cli-service": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "^4.0.1",
     "@vue/test-utils": "^1.1.2",
     "babel-eslint": "^10.0.1",
