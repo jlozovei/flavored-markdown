@@ -15,7 +15,7 @@
   "main": "src/main.js",
   "dependencies": {
     "emoji-js": "^3.4.1",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "v-clipboard": "^2.2.3",
     "vue": "^2.6.12",
     "vue-analytics": "^5.22.1",
